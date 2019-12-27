@@ -1,5 +1,21 @@
-Developed an application to generate a large set of Vampire Numbers in Elixir and concurrently computed output in remote machines. 
-Introduced supervisor for fault tolerance and manage the life cycle of processes.
-Computations of order one billion were distributed across 3 machines.
+# Vampire
 
-DEMO: https://youtu.be/lMlFZbA6TIA   
+**TODO: Add description**
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `vampire` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:vampire, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at [https://hexdocs.pm/vampire](https://hexdocs.pm/vampire).
+
